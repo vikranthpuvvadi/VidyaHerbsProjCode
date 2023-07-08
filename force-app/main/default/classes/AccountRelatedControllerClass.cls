@@ -1,5 +1,5 @@
 /**
- * @description       : this class is used for Sharing the Record with Account Owner
+ * @description       : this class is used for Sharing the Record with the account ownner
  * @author            : Vikranth Puvvadi
  * @group             : 
  * @last modified on  : 07-09-2023
