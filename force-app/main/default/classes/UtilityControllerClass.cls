@@ -7,6 +7,8 @@
  **/
 
 public without sharing class UtilityControllerClass {
+
+   
    public void reShareTheRecordsToAccOwner(Map<Id, Account> accountIdMap, Map<Id, Id> mapAcctOldId, String objectName, String parentFieldName) {
       system.debug('sObject' + relatedObjectQery(accountIdMap, objectName, parentFieldName));
       list<sObject> sObjList = database.query(relatedObjectQery(accountIdMap, objectName, parentFieldName));
